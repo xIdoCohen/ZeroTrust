@@ -1,5 +1,5 @@
 
-## ZeroTrust Access System
+## ZeroTrust Access System -UNFINISHED 
 
 A secure full-stack authentication system built on the Zero Trust model.
 
