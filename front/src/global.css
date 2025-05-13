@@ -1,0 +1,27 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff;             /* Light text for dark mode */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Main screen wrapper */
+  .mainScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1b1b;
+    padding: 0;
+    margin: 0;
+  }
+  

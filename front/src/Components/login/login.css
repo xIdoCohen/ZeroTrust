@@ -1,0 +1,110 @@
+.logincontainer {
+  background-color: #121212; /* Dark background */
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  padding: 0 50px 50px 50px;
+}
+
+.icon-container {
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Input Wrapper */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #bb86fc; /* Soft purple */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Field */
+.input-wrapper input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  color: #ffffff;
+  background: transparent;
+  padding: 0.5rem;
+}
+
+/* Input Focus Effect */
+.input-wrapper:focus-within {
+  border-color: #985eff; /* Brightened purple */
+  box-shadow: 0 0 8px rgba(187, 134, 252, 0.4);
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #bb86fc; /* Soft purple highlight */
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.subTitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #e0e0e0; /* Light gray for readability */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Input Icon */
+.input-icon {
+  margin: 0;
+  margin-right: 0.75rem;
+  color: #bb86fc;
+}
+
+/* Error Message */
+.errorLabel {
+  font-size: 0.875rem;
+  color: #cf6679; /* Material red/pink for dark mode */
+  padding: 5px 0px 20px 10px;
+  display: block;
+}
+
+.showpass {
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  color: #bb86fc;
+}
+
+.button {
+  background-color: #bb86fc;
+  color: #121212;
+  padding: 12px 24px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #985eff;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #7b42e2;
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,92 @@
+/* בסיס לעמוד */
+.mainScreen {
+    background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: #ffffff;
+  }
+  
+  /* כותרת ראשית */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #bb86fc;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* כותרת משנה */
+  .subTitle {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* הודעת שגיאה */
+  .errorLabel {
+    font-size: 0.875rem;
+    color: #cf6679;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* קופסה שמכילה את ששת התאים */
+  .otpContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* כל שדה קלט של OTP */
+  .otpInput {
+    width: 40px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #bb86fc;
+    border-radius: 6px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .otpInput:focus {
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.5);
+    border-color: #985eff;
+  }
+  
+  /* כפתור אימות ושליחה מחדש */
+  .otpButton {
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px 0;
+  }
+  
+  .otpButton:hover {
+    background-color: #985eff;
+    transform: scale(1.05);
+  }
+  
+  .otpButton:disabled {
+    background-color: #5e5e5e;
+    cursor: not-allowed;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
